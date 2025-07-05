@@ -1,13 +1,17 @@
-INSERT INTO Employee VALUES (101,'Ojas','Phansekar',to_date('14-APR-16', 'dd-MON-yyyy'),'New York City','New York',1);
-INSERT INTO Employee VALUES (102,'Vrushali','Patil',to_date('21-JUN-18', 'dd-MON-yyyy'),'Boston','Massachusetts',2);
-INSERT INTO Employee VALUES (103,'Pratik','Parija',to_date('13-SEP-19', 'dd-MON-yyyy'),'Chicago','Illinois',3);
-INSERT INTO Employee VALUES (104,'Chetan','Mistry',to_date('12-APR-11', 'dd-MON-yyyy'),'Miami','Florida',4);
-INSERT INTO Employee VALUES (105,'Anugraha','Varkey',to_date('16-AUG-17', 'dd-MON-yyyy'),'Atlanta','Georgia',5);
-INSERT INTO Employee VALUES (106,'Rasagnya','Reddy',to_date('25-JUL-18', 'dd-MON-yyyy'),'San Mateo','California',6);
-INSERT INTO Employee VALUES (107,'Aishwarya','Boralkar',to_date('18-DEC-10', 'dd-MON-yyyy'),'San Francisco','California',7);
-INSERT INTO Employee VALUES (108,'Shantanu','Savant',to_date('27-NOV-15', 'dd-MON-yyyy'),'Seattle','Washington',8);
-INSERT INTO Employee VALUES (109,'Kalpita','Malvankar',to_date('24-APR-16', 'dd-MON-yyyy'),'Boston','Massachusetts',8);
-INSERT INTO Employee VALUES (110,'Saylee','Bhagat',to_date('21-MAY-14', 'dd-MON-yyyy'),'San Francisco','California',7);
+-- Employee Payroll Management System
+-- Sample Data Insertion Script
+-- Created by: Gunda Saahith
+
+INSERT INTO Employee VALUES (101,'Gunda','Saahith',to_date('14-APR-16', 'dd-MON-yyyy'),'New York City','New York',1);
+INSERT INTO Employee VALUES (102,'Priya','Sharma',to_date('21-JUN-18', 'dd-MON-yyyy'),'Boston','Massachusetts',2);
+INSERT INTO Employee VALUES (103,'Rahul','Kumar',to_date('13-SEP-19', 'dd-MON-yyyy'),'Chicago','Illinois',3);
+INSERT INTO Employee VALUES (104,'Anjali','Patel',to_date('12-APR-11', 'dd-MON-yyyy'),'Miami','Florida',4);
+INSERT INTO Employee VALUES (105,'Vikram','Singh',to_date('16-AUG-17', 'dd-MON-yyyy'),'Atlanta','Georgia',5);
+INSERT INTO Employee VALUES (106,'Meera','Reddy',to_date('25-JUL-18', 'dd-MON-yyyy'),'San Mateo','California',6);
+INSERT INTO Employee VALUES (107,'Arjun','Malhotra',to_date('18-DEC-10', 'dd-MON-yyyy'),'San Francisco','California',7);
+INSERT INTO Employee VALUES (108,'Kavya','Joshi',to_date('27-NOV-15', 'dd-MON-yyyy'),'Seattle','Washington',8);
+INSERT INTO Employee VALUES (109,'Aditya','Verma',to_date('24-APR-16', 'dd-MON-yyyy'),'Boston','Massachusetts',8);
+INSERT INTO Employee VALUES (110,'Zara','Khan',to_date('21-MAY-14', 'dd-MON-yyyy'),'San Francisco','California',7);
 
 
 INSERT INTO Department VALUES (1,'Human Resources');
@@ -142,15 +146,15 @@ reject limit unlimited
 /
 
 
-INSERT INTO Employee VALUES (111,'Priyanka','Jonas',to_date('14-NOV-16', 'dd-MON-yyyy'),'New York City','New York',1);
+INSERT INTO Employee VALUES (111,'Gunda','Saahith',to_date('14-NOV-16', 'dd-MON-yyyy'),'New York City','New York',1);
 
 commit;
 
-INSERT INTO Employee VALUES (112,'John','Vincent',to_date('21-JUN-18', 'dd-MON-yyyy'),'Boston','Massachusetts',2);
+INSERT INTO Employee VALUES (112,'Sarah','Johnson',to_date('21-JUN-18', 'dd-MON-yyyy'),'Boston','Massachusetts',2);
 
 SAVEPOINT A1;
 
-INSERT INTO Employee VALUES (113,'Pratik','Panhale',to_date('13-SEP-19', 'dd-MON-yyyy'),'Chicago','Illinois',3);
+INSERT INTO Employee VALUES (113,'Michael','Chen',to_date('13-SEP-19', 'dd-MON-yyyy'),'Chicago','Illinois',3);
 
 SAVEPOINT A2;
 
