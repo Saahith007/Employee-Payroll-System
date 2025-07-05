@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Employee Payroll Management System
 ## By: Gunda Saahith
 
@@ -30,3 +31,7 @@ A comprehensive database management system for employee payroll processing, desi
 - Transaction management with savepoints
 
 This project demonstrates advanced SQL concepts including views, procedures, exceptions, and complex data relationships in a real-world payroll management context.
+=======
+# Employee-Payroll-Management-System
+Advanced Database Management System
+>>>>>>> 454550a5101f92397f5266999f0e0acfbd830de4

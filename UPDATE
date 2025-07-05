@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 -- Employee Payroll Management System - Update Scripts
 -- Created by: Gunda Saahith
 -- This file contains database update operations
 
+=======
+>>>>>>> 454550a5101f92397f5266999f0e0acfbd830de4
 Update employee
 	set Department_Id = 1
 	where Employee_Id = 101;

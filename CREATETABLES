@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 -- Employee Payroll Management System - Database Schema
 -- Created by: Gunda Saahith
 -- This file contains all table creation scripts for the payroll system
@@ -6,6 +7,11 @@
 Employee
 ---------------------------------------------------
 -- Core employee information table
+=======
+--CREATE TABLES--
+Employee
+---------------------------------------------------
+>>>>>>> 454550a5101f92397f5266999f0e0acfbd830de4
 CREATE TABLE Employee(
   Employee_Id NUMBER(6),
   First_Name VARCHAR2(25),

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 -- Employee Payroll Management System - Advanced SQL Concepts
 -- Created by: Gunda Saahith
 -- This file contains advanced SQL concepts and implementations
@@ -5,6 +6,10 @@
 Inline Views
 -----------------------------------
 -- Query to calculate department-wise employee distribution percentages
+=======
+Inline Views
+-----------------------------------
+>>>>>>> 454550a5101f92397f5266999f0e0acfbd830de4
 select Department_Name, count(*),
 to_char((count(*)/No_of_Employees.cnt)*100, '90.99') Percentages
 from Department,Employee, ( select count(*) cnt from Employee ) No_of_Employees
@@ -41,7 +46,11 @@ pragma exception_init(null_violated_exception , -1400);
 
 begin
 
+<<<<<<< HEAD
 INSERT INTO Employee(Employee_Id,First_Name, Last_Name, Hire_Date, City, State) VALUES ('&Employee_Id','Gunda','Saahith',to_date('14-APR-16', 'dd-MON-yyyy'),'New York City','New York',1);
+=======
+INSERT INTO Employee(Employee_Id,First_Name, Last_Name, Hire_Date, City, State) VALUES ('&Employee_Id','Ojas','Phansekar',to_date('14-APR-16', 'dd-MON-yyyy'),'New York City','New York',1);
+>>>>>>> 454550a5101f92397f5266999f0e0acfbd830de4
 
 
 exception
